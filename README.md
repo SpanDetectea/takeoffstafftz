@@ -1,6 +1,7 @@
 # Как запустить проект
 
-Скачайте проект либо архивом, либо git clone https://github.com/SpanDetectea/takeoffstafftz.git
+Скачайте проект либо архивом, либо 
+``git clone https://github.com/SpanDetectea/takeoffstafftz.git
 
 ## Откройте проект в консоли 
 

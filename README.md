@@ -7,19 +7,19 @@
 
 Пропишите в консоли:
 
-npm i
+`npm i`
 
-npm install -g json-server
+`npm install -g json-server`
 
 ## Пропишите в одной консоли 
 
-json-server --watch db.json --port 3004
+`json-server --watch db.json --port 3004`
 
 ## Пропишите во второй консоли
 
-npm start
+`npm start`
 
-### Введите данные
+### Для авторизации пользователя введите данные:
 
 Пользователь: user
 

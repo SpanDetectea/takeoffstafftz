@@ -73,8 +73,8 @@ const ContactPage = ({ getUsers, users, deleteUser, editUser, addUser, search })
         <div className="contact">
             <div className="contact__panel">
                 <Search users={users} />
-                <input type="text" value={username} onInput={(e) => setUsername(e.target.value)} placeholder='Enter username' />
-                <input type="text" value={status} onInput={(e) => setStatus(e.target.value)} placeholder='Enter status' />
+                <input type="text" value={username} onInput={(e) => setUsername(e.target.value)} placeholder='Enter username' maxLength='20'/>
+                <input type="text" value={status} onInput={(e) => setStatus(e.target.value)} placeholder='Enter status' maxLength='50'/>
                 <input type="text" value={image} onInput={(e) => setImage(e.target.value)} placeholder='Enter Image Url' />
                 {button === 'Add user' ? <input className="contact__button updtateData" type="button" value='Add user' onClick={addingUser} /> :
                     <input className="contact__button updtateData" type="button" value='Edit' onClick={edUser} />}

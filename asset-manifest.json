@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/takeoffstafftz/static/css/main.4b4d7f85.css",
+    "main.js": "/takeoffstafftz/static/js/main.555b2906.js",
+    "static/js/787.4e84dde1.chunk.js": "/takeoffstafftz/static/js/787.4e84dde1.chunk.js",
+    "index.html": "/takeoffstafftz/index.html",
+    "main.4b4d7f85.css.map": "/takeoffstafftz/static/css/main.4b4d7f85.css.map",
+    "main.555b2906.js.map": "/takeoffstafftz/static/js/main.555b2906.js.map",
+    "787.4e84dde1.chunk.js.map": "/takeoffstafftz/static/js/787.4e84dde1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4b4d7f85.css",
+    "static/js/main.555b2906.js"
+  ]
+}

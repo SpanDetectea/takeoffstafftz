@@ -1,0 +1,93 @@
+.contact {
+    margin: 10px 0 0 25%;
+    position: relative;
+
+    &__panel {
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 22%;
+        margin: 1%;
+
+        input {
+            width: 100%;
+        }
+
+        &>input {
+            width: 100%;
+
+            &:last-child {
+                width: 40%;
+                transform: translate(75%);
+            }
+        }
+
+        &__search {
+            margin-bottom: 10%;
+            text-align: center;
+        }
+    }
+
+    &__user {
+        margin: 10px 1px;
+        display: grid;
+        grid-template-columns: 100px 20% 20%;
+        grid-template-rows: 50px 50px;
+        grid-template-areas:
+            "img name status"
+            "img edit del";
+
+        &__img {
+            grid-area: img;
+            width: 100px;
+            height: 100px;
+        }
+
+        &__name {
+            grid-area: name;
+            justify-self: center;
+            align-self: center;
+        }
+
+        &__status {
+            grid-area: status;
+            justify-self: center;
+            align-self: center;
+        }
+
+        &__edit {
+            grid-area: edit;
+            justify-self: center;
+            align-self: center;
+            width: 80%;
+            height: 60%;
+            border: 1px solid green;
+            background-color: rgb(69, 199, 69);
+        }
+
+        &__del {
+            grid-area: del;
+            justify-self: center;
+            align-self: center;
+            width: 80%;
+            height: 60%;
+            border: 1px solid red;
+            background-color: rgb(219, 73, 73);
+        }
+    }
+}
+
+.elementSelection {
+    border: 1px solid green;
+    border-radius: 5px;
+}
+
+.contact__button {
+    border-radius: 15px;
+}
+
+.updtateData {
+    border: 1px solid rgb(27, 191, 197);
+    background-color: rgb(61, 202, 195);
+    margin-top: 15px;
+}

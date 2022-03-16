@@ -1,0 +1,71 @@
+{
+  "auth": [
+    {
+      "id": "1",
+      "login": "user",
+      "password": "pas"
+    }
+  ],
+  "users": [
+    {
+      "id": 0,
+      "img": "https://www.focusedu.org/wp-content/uploads/2018/12/circled-user-male-skin-type-1-2.png",
+      "name": "username",
+      "status": "status"
+    },
+    {
+      "id": 1,
+      "img": "https://www.focusedu.org/wp-content/uploads/2018/12/circled-user-male-skin-type-1-2.png",
+      "name": "username",
+      "status": "status"
+    },
+    {
+      "id": 2,
+      "img": "https://www.focusedu.org/wp-content/uploads/2018/12/circled-user-male-skin-type-1-2.png",
+      "name": "username",
+      "status": "status"
+    },
+    {
+      "id": 3,
+      "img": "https://www.focusedu.org/wp-content/uploads/2018/12/circled-user-male-skin-type-1-2.png",
+      "name": "username",
+      "status": "status"
+    },
+    {
+      "id": 4,
+      "img": "https://www.focusedu.org/wp-content/uploads/2018/12/circled-user-male-skin-type-1-2.png",
+      "name": "username",
+      "status": "status"
+    },
+    {
+      "id": 5,
+      "img": "https://www.focusedu.org/wp-content/uploads/2018/12/circled-user-male-skin-type-1-2.png",
+      "name": "username",
+      "status": "status"
+    },
+    {
+      "id": 6,
+      "img": "https://www.focusedu.org/wp-content/uploads/2018/12/circled-user-male-skin-type-1-2.png",
+      "name": "username",
+      "status": "status"
+    },
+    {
+      "id": 7,
+      "img": "https://www.focusedu.org/wp-content/uploads/2018/12/circled-user-male-skin-type-1-2.png",
+      "name": "username",
+      "status": "status"
+    },
+    {
+      "id": 8,
+      "img": "https://www.focusedu.org/wp-content/uploads/2018/12/circled-user-male-skin-type-1-2.png",
+      "name": "username",
+      "status": "status"
+    },
+    {
+      "id": 9,
+      "img": "https://www.focusedu.org/wp-content/uploads/2018/12/circled-user-male-skin-type-1-2.png",
+      "name": "username",
+      "status": "status"
+    }
+  ]
+}

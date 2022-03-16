@@ -1,0 +1,47 @@
+.form__wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: URl('https://store-images.s-microsoft.com/image/apps.12643.14161875019499822.567e7bbb-48b9-4229-b62b-d9f9ebc1f53f.4665a13c-52b3-4dfe-92fa-bdd2df52dcc9?mode=scale&q=90&h=1080&w=1920') no-repeat;
+    background-size: cover;
+    color: rgb(209, 208, 208);
+    .form {
+        h1 {
+            font-size: 40px;
+            color: rgb(209, 208, 208);
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        &__input {
+            input {
+                border: none;
+                background: none;
+                color:rgb(209, 208, 208);;
+                outline: none;
+                border-bottom: 3px solid rgb(56, 158, 46);
+                margin-bottom: 20px;
+                padding-bottom: 10px;
+                width: 200px;
+                font-size: 15px;
+                &::placeholder {
+                    color: rgb(167, 167, 167);
+                }
+            }
+        }
+        &__button{
+            border-radius: 15px;
+            width: 100%;
+            background: none;
+            border:3px solid rgb(56, 158, 46);
+            color: rgb(209, 208, 208);
+            font-size: 15px;
+            height: 35px;
+            transition: all 0.5s linear;
+            &:hover {
+                background-color: rgb(56, 158, 46);
+            }
+        }
+    }
+}

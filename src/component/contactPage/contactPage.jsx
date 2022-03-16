@@ -111,7 +111,6 @@ const ContactPage = ({ getUsers, users, deleteUser, editUser, addUser, search })
                     </div>
                 }
             }) : null}
-            dsadas
         </div>
     )
 }
